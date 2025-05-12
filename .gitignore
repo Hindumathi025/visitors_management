@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.*
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Cursor-specific files
+Cursor.VisualElementsManifest.xml
+Cursor.exe
+LICENSES.chromium.html
+chrome_100_percent.pak
+chrome_200_percent.pak
+d3dcompiler_47.dll
+ffmpeg.dll
+icudtl.dat
+libEGL.dll
+libGLESv2.dll
+locales/
+managed_context/
+resources.pak
+resources/
+snapshot_blob.bin
+test_suite_analysis/
+tools/
+unins000.*
+v8_context_snapshot.bin
+vk_swiftshader.dll
+vk_swiftshader_icd.json
+vulkan-1.dll
+
+# Firebase configuration (consider keeping these private)
+**/firebaseConfig.js
